@@ -23,10 +23,11 @@ const CollectionSingle = () => {
     fetchSingleItem
   } = useItemsContext()
 
-  // console.log('single-page', item)
+ 
 
   useEffect(() => {
     fetchSingleItem(`${url}${id}`)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id])
 
   if(loading){

@@ -10,7 +10,7 @@ import {
     GET_SINGLE_ITEM_SUCCESS,
     GET_SINGLE_ITEM_ERROR
 } from '../actions';
-import { Loading } from '../components';
+
 
 const initialState = {
     items_loading: false,

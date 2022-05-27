@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Sort, ItemsList, Filters} from '../components';
-import banner from '../assets/bm-bg-web.jpg'
+
 
 const Collection = () => {
   return (
