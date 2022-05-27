@@ -63,7 +63,7 @@ const Wrapper = styled.div`
     }
   
 
-  @media (min-width: 835px){
+  @media (min-width: 1300px){
     .icon {
         display: block;
       }
