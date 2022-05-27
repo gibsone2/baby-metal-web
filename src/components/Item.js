@@ -25,14 +25,11 @@ const Wrapper = styled.div`
     display: none;
   }
 
-
-
-.container {
+  .container {
     position: relative;
   }
 
   img {
-    /* height: 175px; */
     width: 100%;
     display: block;
     object-fit: cover;
@@ -45,23 +42,12 @@ const Wrapper = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background: rgba(89,89,89,0.7); */
     border-radius: 0.25em;
     height: 100%;
     width: 100%;
     overflow: hidden;
     opacity: 0;
   }
-
-  .container:hover img {
-    /* transition: all .3s ease-in-out;
-    opacity: 0.5; */
-    }
-    .container:hover .link {
-     /* transition: all .3s ease-in-out;
-      opacity: 1; */
-    }
-  
 
   @media (min-width: 1300px){
     .icon {
