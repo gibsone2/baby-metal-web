@@ -32,16 +32,16 @@ const CollectionSingle = () => {
 
   if(loading){
     return (
-      <div>
-        <Loading className="section section-center"/>
+      <div className="section section-center">
+        <Loading />
       </div>
     ) 
   }
   if(error){
 
     return  ( 
-      <div>
-        <Error className="section section-center"/> 
+      <div className="section section-center">
+        <Error /> 
       </div>
     )
   }
