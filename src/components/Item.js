@@ -63,7 +63,7 @@ const Wrapper = styled.div`
     }
   
 
-  @media (min-width: 1111px){
+  @media (min-width: 835px){
     .icon {
         display: block;
       }
@@ -80,10 +80,6 @@ const Wrapper = styled.div`
       transition: all .3s ease-in-out;
       opacity: 1;
       }
-
-
-
-
   }
 
 
