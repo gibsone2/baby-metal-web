@@ -31,10 +31,10 @@ const CollectionSingle = () => {
   }, [id])
 
   if(loading){
-    return <Loading />
+    return <Loading className="section section-center"/>
   }
   if(error){
-    return <Error />
+    return <Error className="section section-center"/>
   }
 
   const {hard_to_find: find, description, images, condition, tour, name} = item
