@@ -20,13 +20,6 @@ const Item = ({id, url, name}) => {
 }
 
 const Wrapper = styled.div`
-
-  .icon {
-    display: none;
-  }
-
-
-
 .container {
     position: relative;
   }
@@ -45,7 +38,7 @@ const Wrapper = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background: rgba(89,89,89,0.7); */
+    background: rgba(89,89,89,0.7);
     border-radius: 0.25em;
     height: 100%;
     width: 100%;
@@ -54,35 +47,19 @@ const Wrapper = styled.div`
   }
 
   .container:hover img {
-    /* transition: all .3s ease-in-out;
-    opacity: 0.5; */
+    transition: all .3s ease-in-out;
+    opacity: 0.5;
     }
     .container:hover .link {
-     /* transition: all .3s ease-in-out;
-      opacity: 1; */
+     transition: all .3s ease-in-out;
+      opacity: 1;
     }
   
 
   @media (min-width: 1113px){
-    .icon {
-        display: block;
-      }
-
-      .link {
-         background: rgba(89,89,89,0.4);
-      }
-
-    .container:hover img {
-        transition: all .3s ease-in-out;
-        opacity: 0.5;
-      }
-    .container:hover .link {
-      transition: all .3s ease-in-out;
-      opacity: 1;
-      }
-
-
-
+    
+    
+    
 
   }
 
