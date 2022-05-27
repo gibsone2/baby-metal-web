@@ -24,6 +24,10 @@ const Wrapper = styled.div`
     position: relative;
   }
 
+  .icon {
+    display: none;
+  }
+
   img {
     /* height: 175px; */
     width: 100%;
@@ -54,6 +58,15 @@ const Wrapper = styled.div`
   .container:hover .link {
     transition: all .3s ease-in-out;
     opacity: 1;
+  }
+
+  @media (min-width: 1113px){
+    .icons {
+      display: block;
+    }
+    .link {
+      background: transparent;
+    }
   }
 
 
